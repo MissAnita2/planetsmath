@@ -28,3 +28,10 @@ def sum_product(list):
     for item in list:
         product *= item
     return product
+
+def average(list):
+    sum = 0.0
+    for item in list:
+        sum += item
+    average = sum/3.0
+    return average
